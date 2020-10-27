@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_feature2"
+    app:startDestination="@id/frag_feature2">
+
+    <fragment
+        android:id="@+id/frag_feature2"
+        android:name="com.mrlmoro.feature2.Feature2Fragment"
+        android:label="@string/feature2"
+        tools:layout="@layout/fragment_feature2" />
+
+    <fragment
+        android:id="@+id/frag_feature2_details"
+        android:name="com.mrlmoro.feature2.Feature2DetailsFragment"
+        android:label="@string/feature2_details"
+        tools:layout="@layout/fragment_feature2">
+
+        <deepLink
+            android:id="@+id/dl_feature2_details"
+            app:uri="@string/dl_feature2_details" />
+
+    </fragment>
+
+</navigation>

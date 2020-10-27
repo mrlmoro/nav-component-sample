@@ -1,0 +1,6 @@
+include ':auth'
+include ':feature2'
+include ':feature1'
+include ':core'
+include ':app'
+rootProject.name = "NavComponent"

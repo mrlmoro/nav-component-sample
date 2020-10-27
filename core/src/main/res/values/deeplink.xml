@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dl_feature1">sample://feature1</string>
+    <string name="dl_feature1_details">sample://feature1details</string>
+
+    <string name="dl_feature2_details">sample://feature2details/{param1}/{param2}</string>
+
+    <string name="dl_login">sample://login</string>
+</resources>
